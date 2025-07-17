@@ -20,4 +20,3 @@ class Config:
     SECRET_KEY = os.getenv('SECRET_KEY')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     
-# SQLALCHEMY_URI and SECRET_KEY should be set in the .env file
